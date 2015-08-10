@@ -2,6 +2,7 @@
 <html>
 
 <head data-gwd-animation-mode="proMode">
+  <link href="gwdtaparea_style.css" data-version="1.3" data-exports-type="gwd-taparea" rel="stylesheet">
   <link href="gwdimage_style.css" data-version="1.4" data-exports-type="gwd-image" rel="stylesheet">
   <link href="gwddoubleclick_style.css" data-version="1.9" data-exports-type="gwd-doubleclick" rel="stylesheet">
   <link href="gwdpagedeck_style.css" data-version="1.5" data-exports-type="gwd-pagedeck" rel="stylesheet">
@@ -119,9 +120,6 @@
       color: rgb(225, 245, 254);
       font-family: Roboto;
     }
-    #page1.gwd-play-animation .gwd-gen-mbc7gwdanimation {
-      -webkit-animation: gwd-gen-mbc7gwdanimation_gwd-keyframes 0.8s linear 0s 1 normal forwards;
-    }
     @-webkit-keyframes gwd-gen-mbc7gwdanimation_gwd-keyframes {
       0% {
         left: 36.2923546032989px;
@@ -157,9 +155,6 @@
     .gwd-span-iuun {
       font-family: Roboto;
     }
-    #page1.gwd-play-animation .gwd-gen-erh2gwdanimation {
-      -webkit-animation: gwd-gen-erh2gwdanimation_gwd-keyframes 1s linear 0s 1 normal forwards;
-    }
     @-webkit-keyframes gwd-gen-erh2gwdanimation_gwd-keyframes {
       0% {
         left: 5.5px;
@@ -176,9 +171,6 @@
         -webkit-animation-timing-function: ease-in-out;
       }
     }
-    #page1.gwd-play-animation .gwd-gen-5gsjgwdanimation {
-      -webkit-animation: gwd-gen-5gsjgwdanimation_gwd-keyframes 0.4s linear 1s 1 normal forwards;
-    }
     @-webkit-keyframes gwd-gen-5gsjgwdanimation_gwd-keyframes {
       0% {
         left: 392px;
@@ -191,12 +183,51 @@
         -webkit-animation-timing-function: linear;
       }
     }
+    #page1.gwd-play-animation .gwd-gen-5gsjgwdanimation {
+      -webkit-animation: gwd-gen-5gsjgwdanimation_gwd-keyframes 0.4s linear 1.9s 1 normal forwards;
+    }
+    #page1.gwd-play-animation .gwd-gen-erh2gwdanimation {
+      -webkit-animation: gwd-gen-erh2gwdanimation_gwd-keyframes 1s linear 0.9s 1 normal forwards;
+    }
+    #page1.gwd-play-animation .gwd-gen-mbc7gwdanimation {
+      -webkit-animation: gwd-gen-mbc7gwdanimation_gwd-keyframes 0.4s linear 0.9s 1 normal forwards;
+    }
+    .gwd-taparea-30o1 {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      left: 27px;
+      top: 343px;
+      width: 247px;
+      height: 69px;
+      -webkit-transform-origin: 123.5px 34.5px 0px;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
   </style>
   <script data-source="gwdpage_min.js" data-version="1.2" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
   <script data-source="gwdpagedeck_min.js" data-version="1.5" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
   <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-doubleclick" type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
   <script data-source="gwddoubleclick_min.js" data-version="1.9" data-exports-type="gwd-doubleclick" type="text/javascript" src="gwddoubleclick_min.js"></script>
   <script data-source="gwdimage_min.js" data-version="1.4" data-exports-type="gwd-image" type="text/javascript" src="gwdimage_min.js"></script>
+  <script data-source="gwdtaparea_min.js" data-version="1.3" data-exports-type="gwd-taparea" type="text/javascript" src="gwdtaparea_min.js"></script>
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  <script type="text/javascript" gwd-events="handlers">
+    gwd.auto_Gwd_taparea_1Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.exit('gwd-ad', 'Add close', 'http://www.subjectrefresh.info', true, true);
+    };
+  </script>
+  <script type="text/javascript" gwd-events="registration">
+    // Support code for event handling in Google Web Designer
+     // This script block is auto-generated. Please do not edit!
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('gwd-taparea_1', 'action', gwd.auto_Gwd_taparea_1Action, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('gwd-taparea_1', 'action', gwd.auto_Gwd_taparea_1Action, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
 </head>
 
 <body>
@@ -209,12 +240,14 @@
           <div class="gwd-div-h6uo" id="blue"></div>
           <img is="gwd-image" source="assets/logo_1.png" id="gwd-image_1" class="gwd-img-sc8o gwd-gen-mbc7gwdanimation">
           <h1 class="gwd-div-brbo gwd-gen-erh2gwdanimation"><article><span class="gwd-span-5cun">Revise the <u>smart</u> way</span></article></h1>
-          <div class="gwd-div-46fz gwd-gen-5gsjgwdanimation" style="">
-            <h2 class="gwd-h2-3zxt"><span class="gwd-span-iuun">Start learning now!</span></h2>
+          <div class="gwd-div-46fz gwd-gen-5gsjgwdanimation">
+            <h2 class="gwd-h2-3zxt"><span class="gwd-span-iuun">Start revising now!</span></h2>
           </div>
+          <gwd-taparea id="gwd-taparea_1" class="gwd-taparea-30o1"></gwd-taparea>
         </div>
       </div>
     </div>
+    <gwd-exit metric="Add close" url="http://www.subjectrefresh.info"></gwd-exit>
   </gwd-doubleclick>
   <script type="text/javascript" id="gwd-init-code">
     (function() {
